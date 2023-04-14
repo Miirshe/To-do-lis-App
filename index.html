@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5b88d0cca.js" crossorigin="anonymous"></script>
+    <title>To-Do-App</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do-App</h1>
+        </header>
+        <form action="" id="form">
+            <input type="text" name="username" placeholder="Enter To_Do_list" id="Do_list">
+            <button type="submit" id="btn">Add</button>
+        </form>
+        <nav>
+            <ul>
+                <li onclick="line_throughs(this)">React Js<button onclick="remove_list(this)" class="btn"><i class="fa-solid fa-xmark"></i></button></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
